@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "target": "esnext",
+        "noImplicitAny": true,
+        "noEmit": false,
+        "moduleResolution": "NodeNext",
+        "sourceMap": true,
+        "outDir": "server-prod",
+        "baseUrl": ".",
+        "jsx": "react",
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "express",
+            "node"
+        ]
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "exclude": [
+        "server-prod",
+        "client-prod",
+        "node_modules",
+        ".parcel-cache"
+    ]
+}

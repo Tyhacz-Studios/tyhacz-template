@@ -1,0 +1,9 @@
+node_modules
+.env
+.parcel-cache
+client-prod
+server-prod
+dist
+.DS_Store
+.vscode
+
