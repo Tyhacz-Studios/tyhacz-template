@@ -1,0 +1,27 @@
+.ReactModal__Overlay {
+    background-color: rgba(5, 2, 40, 0.74) !important;
+    z-index: 11;
+}
+.ReactModal__Content > h2 {
+    margin-top: 0;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    min-width: 400px;
+}
+.modal-actions button {
+    margin-left: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .modal-actions {
+        min-width: 80vw;
+        flex-direction: column;
+    }
+    .modal-actions button {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,34 @@
+.floating-submit {
+    position: fixed;
+    z-index: 5;
+    background: #FFF;
+    box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid #10086d;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15%;
+}
+
+.floating-submit > div button {
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .floating-submit {
+        flex-direction: column-reverse;
+        height: 100px;
+        padding: 20px 5%;
+        text-align: center;
+    }
+    .floating-submit a,
+    .floating-submit button {
+        width: 100%;
+        margin: 8px 0 0 0;
+    }
+}

@@ -1,0 +1,53 @@
+.auth-layout {
+    padding-top: 10vh;
+    margin: auto;
+}
+.auth-layout > .logo-container {
+    text-align: center;
+}
+.auth-layout > .logo-container > img{
+    width: 100%;
+}
+.auth-layout h1 {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.auth-layout-actions {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+@media screen and (min-width: 1201px) {
+    .auth-layout {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .auth-layout {
+        width: 35%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .auth-layout {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .auth-layout {
+        width: 90% !important;
+    }
+
+    .auth-layout-actions {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .auth-layout-actions button {
+        width: 100%;
+        display: block;
+    }
+}

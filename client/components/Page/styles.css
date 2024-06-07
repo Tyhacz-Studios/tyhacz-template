@@ -1,0 +1,93 @@
+.app-page {
+    background: #fff;
+    padding: 16px;
+    margin-bottom: 150px;
+}
+.app-page-section {
+    border-top: 1px solid #B4B4B4;
+    padding-top: 64px;
+    margin-top: 64px;
+}
+.app-page-section:first-child,
+.app-page-section .app-page-section {
+    border-top: none !important;
+    padding-top: 0;
+    margin-top: 0;
+}
+.app-page-section h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.form-page {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 16px - 16px - 150px);
+}
+.form-page .form-page-side-nav {
+    width: 180px;
+    border-right: 1px solid #C5C5C5;
+    margin-right: 24px;
+    padding-top: 32px;
+}
+.form-page > form {
+    margin-top: 32px;
+    padding-bottom: 128px;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+.form-page > form .app-page-section h2 {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 2;
+}
+.form-page .form-page-side-nav a{
+    color: #636184;
+    display: block;
+    height: 40px;
+    text-decoration: none;
+}
+.form-section {
+    padding-left: 40%;
+}
+.section-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 24px;
+}
+.section-actions > * {
+    margin-left: 12px;
+}
+
+.app-card {
+    background: #fff;
+    display: inline-block;
+    width: calc(50% - 32px - 24px);
+    margin: 12px;
+    padding: 16px;
+    min-height: 315px;
+}
+.app-card h2 {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    .form-section {
+        padding-left: 0%;
+    }
+    .form-page > form {
+        padding-bottom: 170px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .form-section {
+        padding-left: 0%;
+    }
+
+    .form-page .form-page-side-nav {
+        display: none;
+    }
+}

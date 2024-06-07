@@ -1,0 +1,87 @@
+label {
+    font-size: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+label .error {
+    display: block;
+    color: darkred;
+    min-height: 16px;
+}
+input,
+textarea,
+select {
+    display: block;
+    background: #EFEFEF;
+    border: 1px solid #000;
+    height: 40px;
+    width: calc(100% - 16px);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 6px;
+    padding-left: 12px;
+    font-family: 'Inter', sans-serif;
+}
+select {
+    width: 100%;
+}
+textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 128px;
+}
+input::placeholder,
+textarea::placeholder {
+    font-weight: 400;
+    color: #C7C7C7;
+}
+input:disabled,
+input[disabled],
+textarea:disabled,
+textarea[disabled],
+select:disabled,
+select[disabled] {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+input[type="file"] {
+    width: calc(100% - 48px - 4px);
+    background: #F7F6FF;
+    border: 2px dashed #10086D;
+    padding: 12px 24px;
+}
+.checkbox-label {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.address-input-container {
+    position: relative;
+}
+.address-input-container .address-options{
+    position: absolute;
+    background: #FFF;
+    top: 82%;
+    border: 1px solid #CCC;
+    z-index: 10;
+}
+.address-input-container .address-options .suggestion {
+    background: none;
+    border: none;
+    font-size: 16px;
+    line-height: 32px;
+    width: 100%;
+    text-align: left;
+}
+.address-input-container .address-options .suggestion:hover {
+    background: #EAE9FF;
+    color: #10086D;
+}

@@ -1,4 +1,23 @@
-# Template Developed by Zachary Tyhacz
+# Tyhacz App Template
+
+A 🚫 no-black box, sort of ready-to-go full stack application source code template.
+
+##### Features
+- [x] 🚫 No black box magic code
+- [x] 🔥 SEO Optimized Landing Page
+- [x] 🔥 TypeScript
+- [x] 🔥 Authentication ready to go
+- [x] 🔥 Mongo support ready to go
+- [x] 🔥 Stripe implementation ready to go
+- [x] 🔥 ChatGPT implementation ready to go
+- [x] 🔥 Twilio SMS implementation ready to go
+- [x] 🔥 Mailgun Emailer implementation ready to go
+- [x] 🔥 Example code to reference
+- [x] 🔥 Image uploads ready to go
+- [x] 🔥 API validation and middleware ready to go
+- [x] 🔥 Basic, Responsive client layout and pages ready to go
+- [x] 🔥 Toast notifications ready to go
+
 
 ## Get Started
 ```

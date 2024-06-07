@@ -1,0 +1,7 @@
+.empty-text {
+    color: lightgrey;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
