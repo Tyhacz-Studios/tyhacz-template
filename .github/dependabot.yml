@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # The package manager you use, e.g., "npm", "yarn", "pip", etc.
+    directory: "/" # The directory where your package file is located, "/" for the root directory
+    schedule:
+      interval: "daily" # How often to check for updates ("daily", "weekly", "monthly")
+    commit-message:
+      prefix: "chore" # Prefix for the commit message of the update
+    open-pull-requests-limit: 5 # Maximum number of open pull requests Dependabot will create
+
