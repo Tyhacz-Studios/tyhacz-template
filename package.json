@@ -33,7 +33,7 @@
     "localforage": "^1.10.0",
     "mailgun.js": "^9.3.0",
     "moment": "^2.29.4",
-    "mongoose": "^8.0.0",
+    "mongoose": "^8.4.1",
     "node-fetch": "^2.7.0",
     "nodemon": "^3.0.1",
     "openai": "^4.20.1",
