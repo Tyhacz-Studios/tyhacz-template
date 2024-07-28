@@ -1,18 +1,15 @@
-import parsePhoneNumber from 'libphonenumber-js'
+import { parsePhoneNumber } from 'awesome-phonenumber'
 import APIError from '../errors/apiError'
 
 export const formatPhone = (inPhone: string): string => {
-    const phone_number = parsePhoneNumber(inPhone, {
-        defaultCountry: 'US',
-        extract: true
-    })
+    const pn = parsePhoneNumber(inPhone, { regionCode: 'US' })
 
-    if (!phone_number || !phone_number.isValid()) {
+
+    if (!pn.valid) {
         throw new APIError({
             message: 'Invalid phone number'
-
         })
     }
 
-    return phone_number.format('E.164')
+    return pn.number.e164
 }
