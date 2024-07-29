@@ -17,6 +17,8 @@ A 🚫 no-black box, sort of ready-to-go full stack application source code temp
 - [x] 🔥 API validation and middleware ready to go
 - [x] 🔥 Basic, Responsive client layout and pages ready to go
 - [x] 🔥 Toast notifications ready to go
+- [x] Css variables with `client/variables.css`
+- [x] `<Skeleton />` component
 
 
 ## Get Started
@@ -38,8 +40,6 @@ npm run start
 ```
 
 ## Template To Do List
-- [ ] Add css variables to `global.css`
-- [ ] Add `<Skeleton />` component so react skeleton is imported once
 - [ ] Better `<UploadZone />` styles and functionality
 - [ ] Add `<RadioGroup />` input for easier radio forms
 - [ ] Add `.env` or env var parsing for client side public keys
