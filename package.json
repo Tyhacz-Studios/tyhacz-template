@@ -19,7 +19,7 @@
     "buffer": "^6.0.3",
     "parcel": "^2.10.2",
     "process": "^0.11.10",
-    "ts-node": "^10.7.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.2.2"
   },
   "dependencies": {
