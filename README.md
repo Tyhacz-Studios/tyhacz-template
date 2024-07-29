@@ -17,8 +17,8 @@ A 🚫 no-black box, sort of ready-to-go full stack application source code temp
 - [x] 🔥 API validation and middleware ready to go
 - [x] 🔥 Basic, Responsive client layout and pages ready to go
 - [x] 🔥 Toast notifications ready to go
-- [x] Css variables with `client/variables.css`
-- [x] `<Skeleton />` component
+- [x] 🔥 Css variables with `client/variables.css`
+- [x] 🔥 `<Skeleton />` component
 
 
 ## Get Started
@@ -39,10 +39,41 @@ npm run tsc
 npm run start
 ```
 
-## Template To Do List
-- [ ] Better `<UploadZone />` styles and functionality
-- [ ] Add `<RadioGroup />` input for easier radio forms
-- [ ] Add `.env` or env var parsing for client side public keys
+## How to start Mongo with Docker
+```
+docker run \
+--name CONTAINERNAME \
+-p 27018:27017 \ # change 27018 to your desired port
+-e MONGO_INITDB_ROOT_USERNAME=root \
+-e MONGO_INITDB_ROOT_PASSWORD=generate some password \
+-e MONGO_INIT_DB_NAME=DB_NAME \
+-d mongo:latest
+```
+
+Then, enter the mongo shell to create a user for the database.
+```
+docker exec -it CONTAINERNAME /bin/bash
+```
+
+```
+# This will prompt you for the root password you entered above
+mongosh -u root -p
+
+# If mongosh doesnt work, try just 'mongo'
+mongo -u root -p
+```
+
+```
+use DB_NAME;
+
+db.createUser(
+  {
+    user: "username",
+    pwd:  "password123",
+    roles: [ { role: "readWrite", db: "DB_NAME" } ]
+  }
+);
+```
 
 
 ## Production
@@ -87,3 +118,9 @@ server {
 }
 ```
 
+# Contributing
+
+## Template To Do List
+- [ ] Better `<UploadZone />` styles and functionality
+- [ ] Add `<RadioGroup />` input for easier radio forms
+- [ ] Add `.env` or env var parsing for client side public keys
