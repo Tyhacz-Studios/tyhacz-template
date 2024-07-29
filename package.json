@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel watch ./client/index.html ./client/**/*.css --dist-dir ./client-prod & nodemon ./server/index.ts & wait",
-    "start": "parcel build ./client/index.html --dist-dir ./client-prod && nodemon ./server/index.ts",
+    "dev": "parcel watch ./client/index.html ./client/**/*.css --dist-dir ./client-prod & npx tsx ./server/index.ts & wait",
+    "start": "parcel build ./client/index.html --dist-dir ./client-prod && npx tsx ./server/index.ts",
     "tsc": "tsc --noEmit"
   },
   "author": "",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@types/dotenv-safe": "^8.1.4",
