@@ -19,6 +19,7 @@ A 🚫 no-black box, sort of ready-to-go full stack application source code temp
 - [x] 🔥 Toast notifications ready to go
 - [x] 🔥 Css variables with `client/variables.css`
 - [x] 🔥 `<Skeleton />` component
+- [x] 🔥 Responsive Table component ready to go
 
 
 ## Get Started
