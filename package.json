@@ -27,7 +27,7 @@
     "awesome-phonenumber": "^6.10.0",
     "axios": "^1.7.2",
     "cron": "^3.1.6",
-    "csv-stringify": "^6.4.4",
+    "csv-stringify": "^6.5.1",
     "dotenv": "^16.4.5",
     "dotenv-safe": "^9.1.0",
     "express": "^4.19.2",
