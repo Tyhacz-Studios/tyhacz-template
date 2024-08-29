@@ -37,7 +37,7 @@
     "mongoose": "^8.5.1",
     "node-fetch": "^2.7.0",
     "nodemon": "^3.1.4",
-    "openai": "^4.20.1",
+    "openai": "^4.56.1",
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
     "react-loading-skeleton": "^3.3.1",
