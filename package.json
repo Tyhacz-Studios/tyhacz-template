@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel watch ./client/index.html ./client/**/*.css --dist-dir ./client-prod & npx tsx ./server/index.ts & wait",
+    "dev": "parcel watch ./client/index.html ./client/**/*.css --dist-dir ./client-prod & npx tsx watch ./server/index.ts & wait",
     "start": "parcel build ./client/index.html --dist-dir ./client-prod && npx tsx ./server/index.ts",
     "tsc": "tsc --noEmit"
   },
