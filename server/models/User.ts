@@ -7,6 +7,7 @@ export type UserType = {
     lastLogin?: Date
     superAdmin: boolean
     stripeCustomerId: string
+    stytchUserId: string
 }
 
 const schema = new mongoose.Schema({
