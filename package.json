@@ -36,7 +36,7 @@
     "mailgun.js": "^10.2.3",
     "mongoose": "^8.6.1",
     "node-fetch": "^3.3.2",
-    "nodemon": "^3.1.4",
+    "nodemon": "^3.1.7",
     "openai": "^4.56.1",
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
