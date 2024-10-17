@@ -23,7 +23,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@bytescale/sdk": "^3.44.0",
+    "@bytescale/sdk": "^3.47.0",
     "awesome-phonenumber": "^7.0.1",
     "axios": "^1.7.5",
     "cron": "^3.1.6",
