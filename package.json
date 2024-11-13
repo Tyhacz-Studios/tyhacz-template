@@ -20,7 +20,7 @@
     "parcel": "^2.13.0",
     "process": "^0.11.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.3"
   },
   "dependencies": {
     "@bytescale/sdk": "^3.49.0",
