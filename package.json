@@ -26,7 +26,7 @@
     "@bytescale/sdk": "^3.49.0",
     "awesome-phonenumber": "^7.2.0",
     "axios": "^1.7.7",
-    "cron": "^3.2.0",
+    "cron": "^3.2.1",
     "csv-stringify": "^6.5.1",
     "dotenv": "^16.4.5",
     "dotenv-safe": "^9.1.0",
