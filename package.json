@@ -44,7 +44,7 @@
     "react-modal": "^3.16.1",
     "react-router-dom": "^6.28.0",
     "react-tabs": "^6.0.2",
-    "react-toastify": "^10.0.5",
+    "react-toastify": "^10.0.6",
     "stripe": "^16.8.0",
     "stytch": "^11.8.0",
     "twilio": "^5.3.5",
