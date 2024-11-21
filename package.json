@@ -34,7 +34,7 @@
     "formik": "^2.4.6",
     "localforage": "^1.10.0",
     "mailgun.js": "^10.2.3",
-    "mongoose": "^8.8.1",
+    "mongoose": "^8.8.2",
     "node-fetch": "^3.3.2",
     "nodemon": "^3.1.7",
     "openai": "^4.73.0",
